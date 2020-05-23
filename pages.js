@@ -5,7 +5,7 @@ let pageNumber = 0
 const pages = [
     { copy: `is a Denver-based Sr. Graphic Designer. 💻`, background: `#edc7a9`, circle: `#3e78ed` },
     { copy: `loves his dog Winston. 🐶`, background: `#a1fffe`, circle: `#e34a47` },
-    { copy: `builds guitar pedals in is spare time. 🎸`, background: `#d3c7f3`, circle: `#f7fe00` },
+    { copy: `builds guitar pedals in his spare time. 🎸`, background: `#d3c7f3`, circle: `#f7fe00` },
     { copy: `connects socially here on <a href="http://www.instagram.com/alexcmyk">instagram.</a> 📱`, background: `#faffb8`, circle: `#b472e6` }
 ]
 
