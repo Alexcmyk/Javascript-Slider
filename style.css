@@ -2,8 +2,8 @@
 
 /* Fonts */
 @font-face {
-  src: url(./assets/bluunext.woff);
-  font-family: "Bluunext";
+  font-family: "Bluu Next";
+  src: url(./assets/bluunext.woff2), url(./assets/bluunext.woff);
 }
 
 /* Box sizing rules */
@@ -86,3 +86,40 @@ select {
 }
 
 /* Styles */
+
+body {
+  flex-direction: column;
+  font-family: "Bluu Next", "Times New Roman", Times, serif;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #000;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+  background-color: #edc7a9;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 10vmin;
+}
+
+section {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+section div.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #3d78ed;
+  border-radius: 50%;
+  display: inline-block;
+}
