@@ -109,6 +109,10 @@ section a:hover {
   border-bottom: 3px solid #b376e3;
 }
 
+section a.home {
+  color: #000;
+}
+
 h1 {
   font-size: 24px;
   margin: 10px 0;
