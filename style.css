@@ -2,21 +2,21 @@
 
 /* Fonts */
 @font-face {
-  font-family: "Bluu Next";
-  src: url(./assets/bluunext.woff2), url(./assets/bluunext.woff);
+    font-family: 'Bluu Next';
+    src: url(./assets/bluunext.woff2), url(./assets/bluunext.woff);
 }
 
 /* Box sizing rules */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Remove default padding */
 ul[class],
 ol[class] {
-  padding: 0;
+    padding: 0;
 }
 
 /* Remove default margin */
@@ -34,36 +34,36 @@ figcaption,
 blockquote,
 dl,
 dd {
-  margin: 0;
+    margin: 0;
 }
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
-  list-style: none;
+    list-style: none;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 /* Natural flow and rhythm in articles by default */
 article > * + * {
-  margin-top: 1em;
+    margin-top: 1em;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -71,87 +71,87 @@ input,
 button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
 
 /* Styles */
 
 body {
-  flex-direction: column;
-  font-family: "Bluu Next", "Times New Roman", Times, serif;
-  font-size: 24px;
-  line-height: 1.25;
-  color: #000;
-  height: 100vh;
-  background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
-  background-color: #edc7a9;
-  transition: background-color 0.5s;
+    flex-direction: column;
+    font-family: 'Bluu Next', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #000;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+    background-color: #edc7a9;
+    transition: background-color 0.5s;
 }
 
 section a {
-  color: #b376e3;
-  text-decoration: none;
-  border-bottom: solid 2px transparent;
-  transition: border-bottom 0.2s;
+    color: #b376e3;
+    text-decoration: none;
+    border-bottom: solid 2px transparent;
+    transition: border-bottom 0.2s;
 }
 
 section a:hover {
-  border-bottom: 3px solid #b376e3;
+    border-bottom: 3px solid #b376e3;
 }
 
 section a.home {
-  color: #000;
+    color: #000;
 }
 
 h1 {
-  font-size: 24px;
-  margin: 10px 0;
+    font-size: 24px;
+    margin: 10px 0;
 }
 
 h2 {
-  font-size: 10vmin;
+    font-size: 10vmin;
 }
 
 section {
-  text-align: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
 }
 
 section div.circle {
-  width: 20px;
-  height: 20px;
-  background-color: #3d78ed;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s;
+    width: 20px;
+    height: 20px;
+    background-color: #3d78ed;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
 }
 
 footer img {
-  cursor: pointer;
-  margin: 0 20px;
+    cursor: pointer;
+    margin: 0 20px;
 }
