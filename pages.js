@@ -72,7 +72,7 @@ function next() {
 
 // Previous function that updates page number and runs updateSection function
 function previous() {
-    pageNumber = pageNumber - 1;
+    pageNumber -= 1;
 
     if (pageNumber < 0) {
         pageNumber = pages.length - 1; //adjusts page number based on length of pages
