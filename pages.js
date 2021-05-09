@@ -82,8 +82,16 @@ function previous() {
 }
 
 function random() {
-    pageNumber = Math.floor(Math.random() * pages.length);
-    updateSection();
+    // Setting random number to a new variable
+    let newRandom = Math.floor(Math.random() * pages.length);
+    // Checking to see if the random number is the same as pageNumber. If so re-run random function.
+    // To stop an infinite loop, it also checks to see if pages.length > 1.
+    if (newRandom == pageNumber && pages.length > 1) {
+        random();
+    } else {
+        pageNumber = newRandom;
+        updateSection();
+    }
 }
 
 // Event listeners
