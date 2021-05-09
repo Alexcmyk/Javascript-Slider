@@ -71,13 +71,17 @@ previousTag.addEventListener('click', previous);
 randomTag.addEventListener('click', random);
 
 // Keystroke event listeners for ArrowLeft and ArrowRight key
-document.addEventListener('keyup', function (event) {
+document.addEventListener('keyup', function (e) {
     // If the the key being pressed is ArrowRight
-    if (event.key == 'ArrowRight') {
+    if (e.key == 'ArrowRight') {
         next();
     }
 
-    if (event.key == 'ArrowLeft') {
+    if (e.key == 'ArrowLeft') {
         previous();
+    }
+
+    if (e.key == 'r') {
+        random();
     }
 });
