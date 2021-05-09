@@ -6,21 +6,25 @@ const pages = [
         copy: 'a Denver-based graphic designer & developer',
         background: '#edc7a9',
         circle: '#3e78ed',
+        img: '',
     },
     {
         copy: 'loves working with React and Python',
         background: '#a1fffe',
         circle: '#e34a47',
+        img: '',
     },
     {
         copy: 'looking for a job at the start of July',
         background: '#d3c7f3',
         circle: '#f7fe00',
+        img: '',
     },
     {
         copy: `Hello`,
         background: '#faffb8',
-        circle: '#b472e6',
+        circle: '',
+        img: '',
     },
 ];
 
@@ -32,11 +36,15 @@ const outputTag = document.querySelector('h2'); // grabs the H2
 const circleTag = document.querySelector('section div.circle'); // Grabs the circle tag
 const bodyTag = document.querySelector('body'); // grabs the body tag
 
+// const imgTag = document.querySelector('.image'); Not using at the moment
+// console.dir(imgTag); // Finds all the attributes you can change and logs them
+
 // Functions
 function updateSection() {
     outputTag.innerHTML = pages[pageNumber].copy; //Output tag grabs the H1 and updates based on pageNumber
     circleTag.style.backgroundColor = pages[pageNumber].circle; // Circle tag grabs the circle and updates the bg color
     bodyTag.style.backgroundColor = pages[pageNumber].background; // body tag grabs the body and updates bg color
+    // imgTag.src = pages[pageNumber].img; Not using at the moment
 }
 
 // Next function that updates page number and runs updateSection function
