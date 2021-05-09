@@ -44,7 +44,7 @@ const pages = [
 const nextTag = document.querySelector('footer img.next'); // grabs next img
 const previousTag = document.querySelector('footer img.prev'); //grabs previous img
 const randomTag = document.querySelector('footer img.random'); // grabs the random tag
-const outputTag = document.querySelector('h2'); // grabs the H2
+const outputTag = document.querySelector('section h2'); // grabs the H2
 const circleTag = document.querySelector('section div.circle'); // Grabs the circle tag
 const bodyTag = document.querySelector('body'); // grabs the body tag
 

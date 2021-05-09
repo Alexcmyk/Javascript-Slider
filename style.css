@@ -131,6 +131,14 @@ section {
     text-align: center;
 }
 
+.linkToSite {
+    color: #3f3f3f;
+    transition: color 200ms ease-in;
+}
+.linkToSite:hover {
+    color: #000000;
+}
+
 footer {
     position: fixed;
     bottom: 0;
