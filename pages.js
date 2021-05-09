@@ -1,4 +1,5 @@
 let pageNumber = 0; //Setting page number
+const site = `<a class="linkToSite" href="http://www.alexkirts.com">alexkirts.com</a>`;
 
 // Content for each page
 const pages = [
@@ -15,13 +16,13 @@ const pages = [
         img: '',
     },
     {
-        copy: 'Hi',
+        copy: 'Hi.',
         background: '#d3c7f3',
         circle: '#f7fe00',
         img: '',
     },
     {
-        copy: `Hello`,
+        copy: `Hello.`,
         background: '#faffb8',
         circle: '#f7fe00',
         img: '',
@@ -33,7 +34,7 @@ const pages = [
         img: '',
     },
     {
-        copy: `connecting online at my website <a class="linkToSite" href="http://www.alexkirts.com">alexkirts.com</a>`,
+        copy: `connecting online at ${site}`,
         background: '#faffb8',
         circle: '#f7fe00',
         img: '',
