@@ -92,7 +92,7 @@ body {
     font-family: 'Noto Sans JP';
     font-size: 24px;
     line-height: 1.25;
-    background-color: #edc7a9;
+    background-color: #a9eded;
     background-image: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
     color: #000;
     height: 100vh;
@@ -136,16 +136,23 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
 }
 
 footer img {
-    transition: opacity 100ms ease-in-out;
+    opacity: 0.8;
+    transition: all 100ms ease-in-out;
+}
+
+footer img:nth-child(2) {
+    margin: 0 10px;
 }
 
 footer img:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 @media (max-width: 1000px) {

@@ -3,19 +3,19 @@ let pageNumber = 0; //Setting page number
 // Content for each page
 const pages = [
     {
-        copy: 'a Denver-based graphic designer & developer',
-        background: '#edc7a9',
+        copy: 'A Denver-based graphic designer & developer.',
+        background: '#a9eded',
         circle: '#3e78ed',
         img: '',
     },
     {
-        copy: 'loves working with React and Python',
-        background: '#a1fffe',
+        copy: 'Loves working with React and Python.',
+        background: '#a1beff',
         circle: '#e34a47',
         img: '',
     },
     {
-        copy: 'looking for a job at the start of July',
+        copy: 'Hi',
         background: '#d3c7f3',
         circle: '#f7fe00',
         img: '',
@@ -23,7 +23,19 @@ const pages = [
     {
         copy: `Hello`,
         background: '#faffb8',
-        circle: '',
+        circle: '#f7fe00',
+        img: '',
+    },
+    {
+        copy: `Currently accepting freelance projects.`,
+        background: '#faffb8',
+        circle: '#f7fe00',
+        img: '',
+    },
+    {
+        copy: `connecting online at my website <a class="linkToSite" href="http://www.alexkirts.com">alexkirts.com</a>`,
+        background: '#faffb8',
+        circle: '#f7fe00',
         img: '',
     },
 ];
