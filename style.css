@@ -153,6 +153,7 @@ footer {
 footer img {
     opacity: 0.8;
     transition: all 100ms ease-in-out;
+    cursor: pointer;
 }
 
 footer img:nth-child(2) {
